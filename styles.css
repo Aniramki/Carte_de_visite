@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+body {
+    background-color: #f0f8ff;
+    font-family: Montserrat, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+h3 {
+    margin: 10px;
+    color: #bbb;
+}
+
+h4 {
+    margin: 5px;
+    text-transform: uppercase;
+    color: #bbb;
+}
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #bbb;
+}
+
+.card-container {
+    background-color: #fff0f5;
+    border-radius: 15px;
+    box-shadow: 0px 10px 100px -10px rgba(0, 0, 0, 0.75);
+    color: #B3B8CD;
+    padding-top: 30px;
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    text-align: center;
+}
+
+
+
+.card-container .round {
+    border: 10px solid #bbbbbb;
+    border-radius: 5%;
+    padding: 7px;
+        width: 200px;
+            /* Измените значение на нужный вам размер */
+}
+
+button.primary {
+    background-color: #bbbbbb;
+    border: px #bbbbbb;
+    border-radius: 10px;
+    color: #231E39;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 10px 25px;
+        box-shadow: 0 0 0 1px #bbbbbb;
+            /* Добавляем светлую рамку */
+    
+}
+
+button.primary.ghost {
+    background-color: transparent;
+    color: #231E39;
+    
+}
+button.primary.ghost1 {
+    background-color: transparent;
+    color: #231E39;
+margin-right: 20px;
+}
+.button-row-1 {
+    margin-bottom: 10px;
+    /* Добавляем отступ между строками кнопок */
+}
+.raisons {
+    background-color: #bbb;
+    text-align: centre;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+h5 {
+    margin: 5px;
+    text-transform: uppercase;
+    color: #231E39;
+}
+
+.raisons ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.raisons ul li {
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+    background-color: #fff0f5;
+    border-radius: 10px;
+    color: #231E39;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 10px 15px;
+}
